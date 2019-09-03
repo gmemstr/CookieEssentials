@@ -1,0 +1,6 @@
+name: CookieEssentials
+main: com.gabrielsimmer.cessentials.Main
+version: 1.0
+commands:
+  cehelp:
+    description: Prints out help message for CookieEssentials
