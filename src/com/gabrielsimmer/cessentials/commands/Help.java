@@ -1,5 +1,6 @@
-package com.gabrielsimmer.cessentials;
+package com.gabrielsimmer.cessentials.commands;
 
+import com.gabrielsimmer.cessentials.Main;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
@@ -18,6 +19,7 @@ public class Help implements CommandExecutor {
             commandSender.sendMessage("Invalid command sender!");
             return false;
         }
+
         Player player = (Player) commandSender;
 
         player.sendMessage("======");

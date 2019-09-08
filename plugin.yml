@@ -4,3 +4,7 @@ version: 1.0
 commands:
   cehelp:
     description: Prints out help message for CookieEssentials
+  sethome:
+    description: Set home location
+  home:
+    description: Teleport to home location
